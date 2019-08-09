@@ -1,0 +1,151 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CollegeApp
+</name>
+</assembly>
+<members>
+<member name="T:CollegeApp.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CollegeApp.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CollegeApp.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.CourseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.FacultyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.RegistrarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.CourseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.FacultyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.RegistrarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.CourseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.FacultyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.RegistrarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSet.StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSetTableAdapters.CourseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSetTableAdapters.FacultyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSetTableAdapters.RegistrarTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSetTableAdapters.StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CollegeApp.School_db_dataDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CollegeApp.School_db_dataDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CollegeApp.School_db_dataDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CollegeApp.School_db_dataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CollegeApp.School_db_dataDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CollegeApp.School_db_dataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CollegeApp.School_db_dataDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CollegeApp.School_db_dataDataSetTableAdapters.TableAdapterManager.UpdateAll(CollegeApp.School_db_dataDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CollegeApp.School_db_dataDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
